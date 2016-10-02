@@ -2,6 +2,41 @@
 <html>
 <head>
     <title>Alyssa Rosenzweig</title>
+    
+    <style>
+        /* minimal CSS and no JS is the way to go :-) */
+        /* comments are ok; they'll be stripped later */
+        
+        body {
+            /* sans fonts are just nicer for the web */
+            font-family: "Liberation Sans", "Nimbus Sans L", sans-serif;
+            
+        }
+        
+        /* studies show (jaja) that people read better vertically
+         * I happen to agree, so we enforce this with clever margins.
+         * It's worth noting that if the screen is too small,
+         * it will scroll in an unexpected way.
+         * Hence the need for a simple media queries
+         */
+        
+        @media (min-width: 40em) {
+            body {
+                width: 40em;
+                margin: 0 auto;
+            }
+        }
+        
+        /* slightly nicer bullets */
+        li {
+            list-style-type: square;
+        }
+        
+        /* because I'm important :-) */
+        h1 {
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     <h1>Alyssa Rosenzweig</h1>
