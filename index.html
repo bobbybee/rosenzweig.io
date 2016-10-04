@@ -9,40 +9,47 @@
         
         body {
             /* sans fonts are just nicer for the web */
-            font-family: "Liberation Sans", "Nimbus Sans L", sans-serif;
+            font-family: "Liberation Sans", "Nimbus Sans L", sans-serif;    
             
+            /* a bigger font is good for readability, I think */
+            font-size: 1.1em;
+            
+            /* studies show (jaja) that people read better vertically
+             * I happen to agree, so we enforce this with clever margins.
+             */
+
+            max-width: 30em;
+            margin: 0px auto;
+            padding: 0em 1em 1em 1em; 
+            line-height: 1.6;
+        
+            /* pure black on pure white is a bit annoying */
+            color: #111;
         }
         
-        /* studies show (jaja) that people read better vertically
-         * I happen to agree, so we enforce this with clever margins.
-         * It's worth noting that if the screen is too small,
-         * it will scroll in an unexpected way.
-         * Hence the need for a simple media queries
-         */
-        
-        @media (min-width: 40em) {
-            body {
-                width: 40em;
-                margin: 0 auto;
-            }
-        }
-        
-        /* slightly nicer bullets */
         li {
+            /* slightly nicer bullets */
             list-style-type: square;
+            
+            /* prevent lists from feeling cluttered */
+            padding-bottom: 1em;
         }
         
         /* because I'm important :-) */
-        h1 {
+        .title {
             text-align: center;
         }
+        
+        /* due to the increased font-size, headers feel heavy */
+        h1 { font-size: 1.8em; }
+        h2 { font-size: 1.4em; }        
     </style>
 </head>
 <body>
-    <h1>Alyssa Rosenzweig</h1>
+    <h1 class="title">Alyssa Rosenzweig</h1>
     
     <p>
-        Hello, World! This is some filler text for my website.
+        Hello, World! I'm Alyssa, a hacker interested in computer vision, networking, and security among other fields. I tend to follow minimalist design, visible in both my code and the design of my website. Offline, I love spending time with my German Shepherd, Apollo!
     </p>
     
     <h2>Featured work</h2>
@@ -56,13 +63,21 @@
         <li>
             <a href="https://github.com/bobbybee/hw">hw</a>
             --
-            console-based homework management system integrating with git, markdown, &mu;Present, LaTeX, and more
+            console-based homework management system integrating with git, Markdown, &mu;Present, LaTeX, and more
+        </li>
+        
+        <li>
+            <a href="https://github.com/bobbybee/CommodityTracking">CommodityTracking</a>
+            --
+            experiments with real-time human pose estimation from monocular video 
         </li>
     </ul>
     
     <h2>Contact</h2>
     <ul>
         <li>Email: <a href="mailto:alyssa@rosenzweig.io">alyssa@rosenzweig.io</a></li>
+        <li>Github: <a href="https://github.com/bobbybee">bobbybee</a></li>
+        <li>IRC: <code>alyssa</code> on various networks -- please email me first.</li>
     </ul>
 </body>
 </html>
