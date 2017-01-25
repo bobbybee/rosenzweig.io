@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blog</title>
+    
+    <style>
+        body {
+            font-family: "Liberation Sans", "Nimbus Sans L", sans-serif;    
+            font-size: 1.1em;
+            max-width: 30em;
+            margin: 0px auto;
+            padding: 0em 1em 1em 1em; 
+            line-height: 1.6;
+        }
+        
+        h1 { font-size: 1.8em; }
+        h2 { font-size: 1.4em; }        
+    </style>
+</head>
+    <body>
+        {{#posts}}
+            <a href="{{href}}">{{title}}</a>
+            {{{leader}}}
+        {{/posts}}
+    </body>
+</html>
