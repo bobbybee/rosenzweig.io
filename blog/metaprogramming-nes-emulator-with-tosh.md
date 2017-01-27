@@ -1,6 +1,6 @@
 Metaprogramming NES emulator with tosh
 =================
-_25 Jan 2016_
+_25 Jan 2017_
 
 Over the summer, I wrote an [NES emulator](https://github.com/bobbybee/ScratchNES) in Scratch. Well, really, it was only _from_ Scratch; the code itself was written in [tosh](https://tosh.tjvr.org/) by [Tim Radvan](https://scratch.mit.edu/users/blob8108). tosh is a text-based front-end to Scratch, which lets me manage large projects with vim, git, and -- wait for it -- metaprogramming! Metaprogramming, in its essence, means generating tosh code from other bits of tosh code to construct large programs with minimum effort. In ScratchNES, I used metaprogramming to generate the CPU emulator for the NES. It's not magic!
 
