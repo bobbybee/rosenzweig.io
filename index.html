@@ -9,7 +9,7 @@
         
         body {
             /* sans fonts are just nicer for the web */
-            font-family: "Liberation Sans", "Nimbus Sans L", sans-serif;    
+            font-family: "Cantarell", sans-serif;    
             
             /* a bigger font is good for readability, I think */
             font-size: 1.1em;
@@ -23,7 +23,7 @@
             padding: 0em 1em 1em 1em; 
             line-height: 1.6;
         
-            /* pure black on pure white is a bit annoying */
+            /* lighten the color slightly to enable popping headers */
             color: #111;
         }
         
@@ -43,6 +43,9 @@
         /* due to the increased font-size, headers feel heavy */
         h1 { font-size: 1.8em; }
         h2 { font-size: 1.4em; }        
+
+        /* pop headers in color */
+        h1, h2 { color: #000; }
     </style>
 </head>
 <body>
@@ -55,7 +58,7 @@
     <h2>Featured work</h2>
     <ul>
         <li>
-            <a href="https://github,com/librepi">librepi</a>
+            <a href="https://github.com/librepi">librepi</a>
             &ndash;
             free (libre) firmware replacement for the <a href="https://raspberrypi.org">Raspberry Pi</a> single-board computer
         </li>
