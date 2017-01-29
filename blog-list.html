@@ -1,23 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>Blog</title>
+    <meta charset="utf-8"/>
     
-    <style>
-        body {
-            font-family: "Liberation Sans", "Nimbus Sans L", sans-serif;    
-            font-size: 1.1em;
-            max-width: 30em;
-            margin: 0px auto;
-            padding: 0em 1em 1em 1em; 
-            line-height: 1.6;
-        }
-        
-        h1 { font-size: 1.8em; }
-        h2 { font-size: 1.4em; }        
-
-        h1 { text-align: center; }
-    </style>
+    <style>$$STYLE$$</style>
 </head>
     <body>
         <h1>Alyssa Rosenzweig</h1>
@@ -31,7 +18,9 @@
 
         {{#posts}}
             <a href="{{href}}">{{title}}</a>
-            <p><em>{{date}}</em></p>
+            <p style="margin-top: 0em; padding-top: 0.4em">
+                <em>{{date}}</em>
+            </p>
             <p>{{{leader}}}</p>
         {{/posts}}
     </body>
