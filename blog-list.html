@@ -17,10 +17,11 @@
         <hr/>
 
         {{#posts}}
-            <a href="{{href}}">{{title}}</a>
-            <p style="margin-top: 0em; padding-top: 0.4em">
+            <p>
+                <a style="display: block" href="{{href}}">{{title}}</a>
                 <em>{{date}}</em>
             </p>
+
             <p>{{{leader}}}</p>
         {{/posts}}
     </body>
