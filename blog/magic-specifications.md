@@ -1,4 +1,5 @@
-# Magic Specifications
+Magic Specifications
+=================
 _2 Feb 2017_
 
 Natural language programming is every programmer's dream. In constrained situations, it *is* possible, notably used in [Wolfram Alpha](http://www.wolframalpha.com/) among others. But for everyday work, it is still far-fetched and awkward; the primary issue is simply that natural language is [ambiguous](http://www.seasite.niu.edu/trans/articles/Language%20Ambiguity.htm). Trying to have a computer derive meaning out of a textbook or a coder's comments is fruitless (at least until [the singularity](https://en.wikipedia.org/wiki/Technological_singularity)). Nevertheless, there is one technical document where ambiguity, by its very nature, is ruthlessly eliminated: the specification.
