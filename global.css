@@ -1,0 +1,44 @@
+/* minimal CSS and no JS is the way to go :-) */
+/* comments are ok; they'll be stripped later */
+
+body {
+    /* sans fonts are just nicer for the web */
+    font-family: "Cantarell", sans-serif;    
+    
+    /* a bigger font is good for readability, I think */
+    font-size: 1.1em;
+    
+    /* studies show (jaja) that people read better vertically
+     * I happen to agree, so we enforce this with clever margins. */
+
+    max-width: 30em;
+    margin: 0px auto;
+    padding: 0em 1em 1em 1em; 
+    line-height: 1.6;
+
+    /* lighten the color slightly to enable popping headers */
+    color: #111;
+}
+
+li {
+    /* slightly nicer bullets */
+    list-style-type: square;
+    
+    /* prevent lists from feeling cluttered */
+    padding-bottom: 1em;
+}
+
+/* due to the increased font-size, headers feel heavy */
+h1 { font-size: 1.8em; }
+h2 { font-size: 1.4em; }        
+
+/* pop headers in color */
+h1, h2 { color: #000; }
+
+ a {
+    /* underlined links are a little awkward */
+    text-decoration: none;
+
+    /* the default color is meh */
+    color: #22D;
+}
