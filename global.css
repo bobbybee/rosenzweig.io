@@ -31,7 +31,7 @@ li {
     padding-bottom: 1em;
 }
 
-/* center highest level headers */
+/* center highest level headers and dates */
 h1 { text-align: center; }
 
 /* due to the increased font-size, headers feel heavy */
