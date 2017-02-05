@@ -1,9 +1,4 @@
 #!/bin/bash
 
-HTML=${1%.md}.html
-TITLE=`head -n 1 $1`
-
-MID=$(pandoc -f markdown $1 | python -c 'import json,sys; print(json.dumps(sys.stdin.read()))')
-VIEW="{\"header\": \"$TITLE\", \"content\": $MID}"
-
-echo $VIEW | mustache - template.html $HTML
+echo '<style>' > /tmp/open && echo '</style>'> /tmp/close
+pandoc -f markdown -t html $1 --standalone --self-contained -H /tmp/open -H global.css -H /tmp/close > ${1%.md}.html
