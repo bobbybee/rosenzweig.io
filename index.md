@@ -1,4 +1,4 @@
-Alyssa Rosenzweig {#alyssa-rosenzweig style="text-align: center"}
+Alyssa Rosenzweig 
 =================
 
 Hello, World! I'm Alyssa, a hacker interested in computer vision,
