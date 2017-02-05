@@ -18,6 +18,9 @@ body {
 
     /* lighten the color slightly to enable popping headers */
     color: #111;
+
+    /* normally justified text is frowned upon, but it works here, I feel */
+    text-align: justify;
 }
 
 li {

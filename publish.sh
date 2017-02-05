@@ -6,4 +6,4 @@ STYLE=$(cat global.css)
 awk -v STYLE="$STYLE" '{gsub(/\$\$STYLE\$\$/, STYLE); print}' < $1 > $1.mi
 html-minifier $OPTIONS $1.mi > $1.min
 #rm $1.mi
-scp $1.min alyssa@rosenzweig.io:/var/www/html/$1
+./upload.sh $1.min $1
