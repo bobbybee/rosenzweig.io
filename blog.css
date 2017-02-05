@@ -1,0 +1,5 @@
+/* center dates */
+h1:not(#alyssa-rosenzweig) + p { text-align: center; }
+
+/* separate date lines */
+a.title { display: block; }
