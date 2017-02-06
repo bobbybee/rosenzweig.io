@@ -2,9 +2,6 @@ Diversity at Bletchley Park
 ============================
 _27 May 2015_
 
-*Author's note: This paper was originally written for my combined
-English-History class. It was adapted for blog publication on 5 Feb 2017*
-
 ---
 
 During World War II, Bletchley Park was the location of the Government
@@ -245,3 +242,13 @@ Intellignence”*. *National Security Agency*. NSA, June 1943. Web. 05 Apr
 Wansell, Geoffrey. *How Britain drove its greatest genius Alan Turing to
 suicide... just for being gay*. dailymail. 11 Sep 2009. Web. 16 May
 2015.
+
+---
+
+Author's note: This paper was originally written for my combined
+English-History class. It was adapted for blog publication on 5 Feb 2017.
+I thus thank my teacher for forcing me to wr-- supporting me throughout
+the writing process and helping me grow as a thinker, as well as my
+parents for doing the same.
+
+
