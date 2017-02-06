@@ -2,13 +2,7 @@ Diversity at Bletchley Park
 ============================
 _27 May 2015_
 
----
-
-During World War II, Bletchley Park was the location of the Government
-Code and Cipher School (GC&CS), a secret facility ran by the British
-government to break the encrypted Axis communications (History of
-Bletchley Park), most famously, the Nazi Enigma cipher (Captain Ridley’s
-Shooting Party). The Axis nations (Germany, Japan, etc.) used various
+During World War II, Bletchley Park was the location of the Government Code and Cipher School (GC&CS), a secret facility ran by the British government to break the encrypted Axis communications (History of Bletchley Park), most famously, the Nazi Enigma cipher (Captain Ridley’s Shooting Party). The Axis nations (Germany, Japan, etc.) used various
 “codes and ciphers” for military communications, and the intelligence
 that was recovered from breaking these codes “was of vital importance to
 \[England’s\] national security and ultimate victory” (History of

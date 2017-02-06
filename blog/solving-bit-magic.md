@@ -2,7 +2,7 @@ Solving BIT Magic
 ==================
 _23 Oct 2016_
 
-Static code recompilation is a fascinating problem -- and largely an unsolved one, because in general it's [impossible](https://en.wikipedia.org/wiki/Halting_problem) (That's about as hard as you can get!) Nevertheless, it's possible in many cases, if you ignore certain features like self-modifying code. Andrew Kelly has written a fantastic [blog post](http://andrewkelley.me/post/jamulator.html) on recompiling NES games to LLVM bitcode. If you haven't read it, you should. It's awesome. Seriously, close this page and read it... but come back here when you're done :-)
+Static code recompilation is a fascinating problem, and largely an unsolved one, because in general it's [impossible](https://en.wikipedia.org/wiki/Halting_problem) -- that's about as hard as you can get! Nevertheless, it's possible in many cases, if you ignore certain features like self-modifying code. Andrew Kelly has written a fantastic [blog post](http://andrewkelley.me/post/jamulator.html) on recompiling NES games to LLVM bitcode. If you haven't read it, you should. It's awesome. Seriously, close this page and read it... but come back here when you're done :-)
 
 ---
 
