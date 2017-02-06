@@ -1,6 +1,5 @@
 #!/bin/sh
 
-rm blog/index.md
 find blog/*.md -exec ./redate.sh {} \;
 
 cat blog-list.md > blog/index.md
