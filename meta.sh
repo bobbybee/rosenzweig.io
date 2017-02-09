@@ -1,12 +1,9 @@
 #!/bin/sh
 
-HTML=$(echo ${1%.md}.html | sed -e s-blog/--)
-TITLE=$(head -n 1 $1)
-DATE=$(head -n 3 $1 | tail -n 1)
-LEADER=$(head -n 5 $1 | tail -n 1 | sed -E -e 's/(\.|\?|\!)( |$).*/.../g')
+URL=$(echo ${1%.md}.html | sed -e s-blog/--)
 
-echo "[$TITLE]($HTML){.title}"
-echo "*$DATE*"
+echo "[$(sed -n 1p $1)]($URL){.title}"
+echo "*$(sed -n 3p $1)*"
 echo ""
-echo "$LEADER"
+sed -n 5p $1 | sed -E -e 's/(\.|\?|\!)( |$).*/.../g'
 echo ""
