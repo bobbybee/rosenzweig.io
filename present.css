@@ -11,9 +11,8 @@ body {
     background-color: #011;
     color: #DDD;
 
-    /* hide cursor + scroll bar */
+    /* hide cursor */
     cursor: none;
-    overflow: hidden;
 }
 
 a { color: #9CF }
