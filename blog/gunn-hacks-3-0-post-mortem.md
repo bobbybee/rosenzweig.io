@@ -6,4 +6,4 @@ Last weekend, [nickolas360](https://github.com/nickolas360) and I participated i
 
 Now with the Markov plugin enabled, I'm free to write utter non-sense into my blog posts and have the nonsense auto-generated. More so, I can write similarly nonsensical replies to queries on IRC, because nobody has time to chat with their friends when they are so busy spamming the tab key for their blog posts and REPL code comments!
 
-I maintain that I am better at implementation than design. Oh well, I still blame Nickolas for making the decision for me. It was this or word-count-as-a-service, the latest Orwellian affront to your freedom! Oh, wait, I did over lunch, too, in [wings](https://github.com/bobbybee/wings).
+So that happened.
