@@ -1,7 +1,7 @@
 Alyssa Rosenzweig 
 =================
 
-Hello, World! I'm Alyssa, a hacker interested in computer vision, networking, and security among other fields. I like minimalist design, visible in both my code and the my website design, and I admire the UNIX philosophy. Offline, I love spending time with my German Shepherd, Apollo!
+Hello, World! I'm Alyssa, a hacker interested in computer vision, networking, and security among other fields. I like minimalist design, visible in both my code and my website design, and I admire the UNIX philosophy. Offline, I love spending time with my German Shepherd, Apollo!
 
 Featured work
 -------------
