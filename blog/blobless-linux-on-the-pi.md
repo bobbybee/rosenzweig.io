@@ -1,4 +1,4 @@
-Blobless Linux on the Pi: Post Mortem
+Blobless Linux on the Pi
 ==================
 _13 Feb 2017_
 
