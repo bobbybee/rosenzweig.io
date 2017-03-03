@@ -8,14 +8,14 @@ Featured work
 
 -   [librepi](https://github.com/librepi) – libre firmware for the Raspberry Pi single-board computer
 -   [My blog](https://blog.rosenzweig.io) – assorted, mostly technical, prose
--   [hw](https://github.com/bobbybee/hw) – homework management for hackers, integrating with git, Markdown, uPresent, and more
--   [uPresent](https://github.com/bobbybee/uPresent) – minimalist Markdown presentations compiling to beautiful HTML
--   [libskeletal](https://github.com/bobbybee/libskeletal) – real-time human pose estimation from monocular video
+-   [hw](https://rosenzweig.io/git/?p=hw.git) – homework management for hackers, integrating with git, Markdown, uPresent, and more
+-   [uPresent](https://rosenzweig.io/git/?p=uPresent.git) – minimalist Markdown presentations compiling to beautiful HTML
+-   [libskeletal](https://rosenzweig.io/git/?p=libskeletal.git) – real-time human pose estimation from monocular video
 
 Contact
 -------
 
 -   Email: <alyssa@rosenzweig.io> [(GPG key)](/gpg.pub)
--   Github: [bobbybee](https://github.com/bobbybee)
+-   Git: [self-hosted](https://rosenzweig.io/git/)
 -   IRC: `alyssa` on various networks – please email me first.
 
